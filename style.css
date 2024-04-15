@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, system-ui, '-apple-system', 
+    'BlinkMacSystemFont','Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 
+    'Poppins';
+    background-image: linear-gradient(rgba(9, 0, 77, 0.192),
+    rgba(9, 0, 77, 0.26)), url(/images/pexels-pixabay-268533.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 8%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(190, 190, 190);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;   
+}
+
+.btn:hover {
+    background-color: #b90465;
+}
+
+.btn img {
+    width: 20px;
+    margin-right: 10px;
+    background: transparent;
+
+}
+
+.insert {
+    background: white;
+}
+
+.content {
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;
+
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    padding-bottom: 8px;
+}
+
+
+
+.content form {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.content form input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+.content form .btn {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+.content p {
+    font-size:large;
+}
